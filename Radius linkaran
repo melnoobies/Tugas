@@ -1,0 +1,11 @@
+pi = 3.14
+
+def luas (luas):
+  if luas < 0:
+        raise ValueError("Luas tidak boleh negatif.")
+    return (luas / pi) ** 0.5
+
+def keliling (keliling):
+  if keliling < 0:
+        raise ValueError("keliling tidak boleh negatif.")
+    return keliling / (pi * 2)
