@@ -1,13 +1,10 @@
-# bangunDatar.py
 
-def cari_panjang_dari_luas(lebar, luas):
-    """Menghitung panjang persegi panjang jika diketahui lebar dan luas."""
+def luas(lebar, luas):
     if lebar == 0:
         raise ValueError("Lebar tidak boleh nol.")
     return luas / lebar
 
-def cari_panjang_dari_keliling(lebar, keliling):
-    """Menghitung panjang persegi panjang jika diketahui lebar dan keliling."""
+def keliling(lebar, keliling):
     if lebar == 0:
         raise ValueError("Lebar tidak boleh nol.")
     return (keliling / 2) - lebar
