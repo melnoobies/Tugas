@@ -1,3 +1,4 @@
 def luas(sisi)
-    l = sisi  ** 0,5
-    return l
+    if sisi == 0 
+        raise ValueError("Lebar tidak boleh nol.")
+    return sisi ** 0.5
