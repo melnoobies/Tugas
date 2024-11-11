@@ -1,4 +1,4 @@
-def luas(sisi)
+def hitung_luas (sisi,luas)
     if sisi == 0 
         raise ValueError("Lebar tidak boleh nol.")
     return sisi ** 0.5
