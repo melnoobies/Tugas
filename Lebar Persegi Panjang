@@ -1,10 +1,11 @@
 
-def luas(panjang, luas):
+
+def hitung_luas(panjang, luas):
     if panjang == 0:
         raise ValueError("Panjang tidak boleh nol.")
     return luas / panjang
 
-def keliling(panjang, keliling):
+def hitung_keliling(panjang, keliling):
     if panjang == 0:
         raise ValueError("Panjang tidak boleh nol.")
     return (keliling / 2) - panjang
