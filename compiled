@@ -7,7 +7,7 @@ def akar_kuadrat(x):
             return z
 
 # Menggunakan nilai pi sebagai konstanta
-PI = 3.14159
+PI = 3.14
 
 def hitung_persegi():
     print("Menghitung Persegi")
